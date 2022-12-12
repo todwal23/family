@@ -1,8 +1,13 @@
+body {
+    background: url(https://tenor.com/bDJ9F.gif);
+}
+
 .jodie {
     height: 350px;
-    width: 250px;
+    width: 200px;
     border-radius: 12px;
     margin-left: 55px;
+    box-shadow: 4px 4px black;
 }
 
 .todd {
@@ -11,6 +16,7 @@
     border-radius: 12px;
     float: right;
     margin-right: 55px;
+    box-shadow: 4px 4px black;
 }
 
 .header {
@@ -18,14 +24,21 @@
     font-size: 45px;
     font-weight: 900;
     font-family: cursive;
-    background-color: grey;
+    background-color: rgb(131, 125, 125);
     padding: 30px 0 30px 0;
-    margin: 5px;
+    margin: 8px;
     border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: 4px 4px black;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.opening {
+    width: 500px;
+    font-size: 25px;
 }
