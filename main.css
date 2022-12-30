@@ -2,6 +2,21 @@ body {
     background: url(https://tenor.com/bDJ9F.gif);
 }
 
+nav {
+    display: flex;
+}
+
+ul.left-side {
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+
 .jodie {
     height: 350px;
     width: 200px;
@@ -20,6 +35,7 @@ body {
 }
 
 .header {
+    width: 100%;
     text-align: center;
     font-size: 45px;
     font-weight: 900;
